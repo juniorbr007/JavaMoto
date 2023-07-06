@@ -11,7 +11,6 @@ public class ex05 {
         
         Scanner scan = new Scanner(System.in);
 
-
         System.out.printf("Digite o primeiro número: ");
             double numero1 = scan.nextDouble();
         System.out.printf("Digite o segundo numero: ");
@@ -22,6 +21,8 @@ public class ex05 {
             double potencia = pow(numero1, numero2);
 
             System.out.println("Potencia dos numeros: "+potencia);
+        }else{
+            System.out.println("Insira numeros >= 0 ");
         }
         
     }
