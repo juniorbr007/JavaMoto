@@ -1,0 +1,15 @@
+// (1) Desenvolva um algoritmo que some todos os números inteiros compreendidos entre 1 e 10 (inclusive).
+
+package Aula04;
+
+public class ex01 {
+    public static void main(String[] args) {
+        int soma = 0;
+
+        for (int i = 1; i <= 10; i++) {
+            soma += i;
+        }
+
+        System.out.println("A soma dos números de 1 a 10 é: " + soma);
+    }
+}
